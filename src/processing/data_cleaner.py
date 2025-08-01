@@ -8,8 +8,8 @@ import json
 # Lee desde la carpeta raw
 INPUT_PATH = os.path.join('data', 'raw', 'karcal_data_raw.csv')
 # Guarda en la carpeta processed
-OUTPUT_DIR = os.path.join('data', 'processed')
-OUTPUT_PATH = os.path.join(OUTPUT_DIR, 'karcal_data_processed.csv')
+OUTPUT_DIR = os.path.join('data', 'clean')
+OUTPUT_PATH = os.path.join(OUTPUT_DIR, 'karcal_data_cleaned_raw.csv')
 
 # --- FUNCIONES DE LIMPIEZA ROBUSTAS ---
 
